@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T08:20:09 IST" name="Default suite" finished-at="2021-10-20T08:20:39 IST" duration-ms="30701">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T08:20:09 IST" name="Default test" finished-at="2021-10-20T08:20:39 IST" duration-ms="30701">
+      <class name="Test_Runner.User_Login_Test">
+        <test-method is-config="true" signature="open()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:09 IST" name="open" finished-at="2021-10-20T08:20:16 IST" duration-ms="7270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="test_cases(java.lang.String,java.lang.String)[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:16 IST" name="test_cases" data-provider="users_creds" finished-at="2021-10-20T08:20:18 IST" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_cases -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:18 IST" name="close_Browser" finished-at="2021-10-20T08:20:21 IST" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="open()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:21 IST" name="open" finished-at="2021-10-20T08:20:25 IST" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="test_cases(java.lang.String,java.lang.String)[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:25 IST" name="test_cases" data-provider="users_creds" finished-at="2021-10-20T08:20:27 IST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_cases -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:27 IST" name="close_Browser" finished-at="2021-10-20T08:20:30 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="open()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:30 IST" name="open" finished-at="2021-10-20T08:20:35 IST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="test_cases(java.lang.String,java.lang.String)[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:35 IST" name="test_cases" data-provider="users_creds" finished-at="2021-10-20T08:20:36 IST" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[who123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_cases -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:Test_Runner.User_Login_Test@21e360a]" started-at="2021-10-20T08:20:36 IST" name="close_Browser" finished-at="2021-10-20T08:20:39 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- Test_Runner.User_Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
