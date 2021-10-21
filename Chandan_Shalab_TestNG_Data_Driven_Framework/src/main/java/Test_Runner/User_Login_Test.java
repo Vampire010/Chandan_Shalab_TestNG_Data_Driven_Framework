@@ -23,7 +23,7 @@ public class User_Login_Test
 	public Object[][] Credentials() throws EncryptedDocumentException, IOException
 	{
 		ReadExcel_Data read = new ReadExcel_Data();
-		return read.getCellData("D:\\Eclipse_Practiee\\Eclipse WorkSpace\\Chandan_Shalab_TestNG_Data_Driven_Framework\\src\\main\\java\\Data_Source\\User_Data.xlsx", "User_Creds");
+		return read.getCellData(Excel_File_Path, Excel_Sheet_Name);
 	}
 	
 	@BeforeMethod
@@ -33,10 +33,12 @@ public class User_Login_Test
 	}
 	
 	@Test(dataProvider = "users_creds")
-	public void test_cases(String usrname , String UserPassword)
+	public void test_cases(String usrname , String UserPassword )
 	{
 		usrlp.user_Login(usrname, UserPassword);
 	}
+	
+	
 	@AfterMethod
 	public void close_Browser() throws InterruptedException
 	{
