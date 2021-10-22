@@ -24,7 +24,7 @@ public class WriteExcel_Data
 		InputStream inp = new FileInputStream("C:\\Users\\archana\\git\\Chandan_Shalab_TestNG_Data_Driven_Framework\\Chandan_Shalab_TestNG_Data_Driven_Framework\\src\\main\\java\\Data_Source\\Login_Test_Results.xlsx");
 		
 		Workbook wb = WorkbookFactory.create(inp);
-		Sheet sh = wb.getSheet("");
+		Sheet sh = wb.getSheet("Login_Test_Result");
 		
 		int num = sh.getLastRowNum();
 		Row row = sh.createRow(++num);
@@ -59,6 +59,7 @@ public class WriteExcel_Data
 			FileOutputStream filout= new FileOutputStream("C:\\\\Users\\\\archana\\\\git\\\\Chandan_Shalab_TestNG_Data_Driven_Framework\\\\Chandan_Shalab_TestNG_Data_Driven_Framework\\\\src\\\\main\\\\java\\\\Data_Source\\\\Login_Test_Results.xlsx");
 			wb.write(filout);
 			filout.close();
+			System.out.println("Login_Test_Results.xlsx written Successfully on the machine");
 		}
 		catch(Exception E)
 		{

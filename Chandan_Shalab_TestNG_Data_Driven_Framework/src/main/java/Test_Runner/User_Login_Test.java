@@ -15,8 +15,8 @@ public class User_Login_Test
 {
 	String url = "https://demo.openmrs.org/openmrs/referenceapplication/login.page";
 	String Browser_Type = "chrome";
-	String Excel_File_Path = "D:\\Eclipse_Practiee\\Eclipse WorkSpace\\Chandan_Shalab_TestNG_Data_Driven_Framework\\src\\main\\java\\Data_Source\\User_Data.xlsx";
-	String Excel_Sheet_Name = "User_Creds";
+	String Excel_File_Path = "D:\\Eclipse_Practiee\\Eclipse WorkSpace\\Chandan_Shalab_TestNG_Data_Driven_Framework\\src\\main\\java\\Data_Source\\ttttt.xlsx";
+	String Excel_Sheet_Name = "Sheet1";
 	User_Login_Page usrlp = new User_Login_Page();
 	
 	@DataProvider(name = "users_creds")
